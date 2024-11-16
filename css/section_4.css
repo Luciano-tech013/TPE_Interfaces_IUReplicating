@@ -1,0 +1,63 @@
+.section_4 {
+    width: 1280px;
+    height: 5031.173px;
+    position: relative;
+}
+
+.titulo_4 {
+    width: 802px;
+    height: 57px;
+    top: 201px;
+    left: 100px;
+    position: absolute;
+}
+
+.titulo_4 p {
+    color: black;
+    font-size: 60px;
+    line-height: 94.5%;
+    font-weight: 600;
+    font-family: 'Lato';
+}
+
+.contador_imagenes {
+    background-image: url("../assets/imgs/contador_muñecos.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 291px;
+    height: 436px;
+    top: 269px;
+    left: 243px;
+}
+
+.galeria_parrafos_movibles {
+    display: flex;
+    flex-direction: column;
+    gap: 267px;
+    position: absolute;
+    top: 428px;
+    left: 713px;
+    width: 467px;
+    height: 4884px;
+}
+
+.parrafo_movible {
+    width: 467px;
+    height: 114px;
+}
+
+.parrafo_movible_titulo {
+    font-size: 40px;
+    font-family: 'Lato';
+    font-weight: 400;
+    line-height: 94.5%;
+    color: black;
+}
+
+.parrafo_movible_contenido {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 94.5%;
+    color: black;
+}

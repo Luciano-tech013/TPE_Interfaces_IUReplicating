@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    width: 1280px;
+}
+
+.section_1 {
+    background-image: url("../assets/imgs/fondo.png");
+    background-repeat: no-repeat;
+    position: relative;
+    width: 1280px;
+    height: 959px;
+    top: 0px;
+    left: 0px;
+    overflow-x: hidden;
+}
+
+.arbol_3 {
+    background-image: url("../assets/imgs/arbol_3.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 278.03px;
+    height: 430.85px;
+    top: 278.377px;
+    left: 1080.97px;
+}
+
+.arbusto_3 {
+    background-image: url("../assets/imgs/arbusto_3.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 191.19px;
+    height: 63.28px;
+    top: 630.458px;
+    left: 1028.46px;
+}
+
+.muñeco_3 {
+    background-image: url("../assets/imgs/muñeco_3.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 231px;
+    height: 406px;
+    top: 338px;
+    left: 694px;
+}
+
+.sombra_muñeco_3 {
+    background-image: url("../assets/imgs/sombra_muñeco_3.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 194px;
+    height: 87px;
+    top: 670px;
+    left: 694px
+}
+
+.arbusto_2 {
+    background-image: url("../assets/imgs/arbusto_2.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 244.37px;
+    height: 107.71px;
+    top: 662.099px;
+    left: 1080.97px;
+}
+
+.muñeco_2 {
+    background-image: url("../assets/imgs/muñeco_2.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 228px;
+    height: 292px;
+    top: 403px;
+    left: 536px;
+}
+
+.sombra_muñeco_2 {
+    background-image: url("../assets/imgs/sombra_muñeco_2.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 194px;
+    height: 87px;
+    top: 704px;
+    left: 589px;
+}
+
+
+.arbol_2 {
+    background-image: url("../assets/imgs/arbol_2.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 435px;
+    height: 673px;
+    top: 106.771px;
+    left: 881.03px;
+}
+
+.piedra_2 {
+    background-image: url("../assets/imgs/piedra_2.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 67px;
+    height: 57px;
+    top: 737.497px;
+    left: 1035.192px;
+}
+
+.muñeco_1 {
+    background-image: url("../assets/imgs/muñeco_1.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 275px;
+    height: 340px;
+    top: 500px;
+    left: 411px;
+    z-index: 1;
+}
+
+.sombra_muñeco_1 {
+    background-image: url("../assets/imgs/sombra_muñeco_1.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 194px;
+    height: 87px;
+    top: 732px;
+    left: 474px;
+    z-index: 2;
+}
+
+.piedra_3 {
+    background-image: url("../assets/imgs/piedra_3.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 114px;
+    height: 75px;
+    top: 737.497px;
+    left: 1072.218px;
+}
+
+.piedra_1 {
+    background-image: url("../assets/imgs/piedra_1.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 60px;
+    height: 35px;
+    top: 786.64px;
+    left: 1042.598px;
+}
+
+.arbusto_4 {
+    background-image: url("../assets/imgs/arbusto_4.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 250px;
+    height: 115px;
+    top: 717.974px;
+    left: 161.383px;
+}
+
+.arbol_1 {
+    background-image: url("../assets/imgs/arbol_1.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 561px;
+    height: 868px;
+    top: 0px;
+    left: -153px;
+}
+
+.piedra_4 {
+    background-image: url("../assets/imgs/piedra_4.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 146px;
+    height: 79px;
+    top: 793.372px;
+    left: 129.069px;
+}
+
+.arbusto_1 {
+    background-image: url("../assets/imgs/arbusto_1.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 156px;
+    height: 103px;
+    top: 821.646px;
+    left: 197.062px;
+}
+
+.logo {
+    background-image: url("../assets/imgs/logo_1.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 560px;
+    height: 320px;
+    top: 55px;
+    left: 360px;
+}
+

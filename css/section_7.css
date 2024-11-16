@@ -1,0 +1,13 @@
+.section_7 {
+    position: relative;
+    width: 1280px;
+    height: 919px;
+}
+
+.section_7 div {
+    background-image: url("../assets/imgs/muñecos_muestra.png");
+    background-repeat: no-repeat;
+    position: relative;
+    width: 1280px;
+    height: 729px;
+}
