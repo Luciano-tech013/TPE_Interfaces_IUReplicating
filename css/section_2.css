@@ -38,6 +38,9 @@
 }
 
 .cuadrado_imagenes {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
     position: absolute;
     border: 29px solid #1B5F99;
     border-radius: 77px;
@@ -48,13 +51,8 @@
 }
 
 .cuadrado_img {
-    background-image: url("../assets/imgs/imagen_2.png");
-    position: absolute;
-    width: 522px;
-    height: 279.03px;
-    top: 365px;
-    left: 262px;
-    border-radius: 50px;
+    width: 518.38px;
+    height: 280px;
 }
 
 .muñeco_4 {
