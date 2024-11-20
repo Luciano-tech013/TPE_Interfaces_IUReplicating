@@ -75,12 +75,6 @@
     height: 1259px;
 }
 
-.cards_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .cards_img_1 {
     background-image: url("../assets/imgs/muestra_1.png");
     background-repeat: no-repeat;
@@ -88,6 +82,8 @@
     width: 337px;
     height: 308px;
     top: 1250px;
+    transform: translateY(800px);
+    transition: all 0.8s;
     left: 100px;
 }
 
@@ -96,6 +92,8 @@
     width: 333px;
     height: 218px;
     top: 1576px;
+    transform: translateY(1000px);
+    transition: all 0.8s;
     left: 100px;
 }
 
@@ -106,6 +104,8 @@
     width: 337px;
     height: 308px;
     top: 1250px;
+    transform: translateY(1000px);
+    transition: all 0.8s;
     left: 473.521px;
 }
 
@@ -114,6 +114,8 @@
     width: 332px;
     height: 217px;
     top: 1576px;
+    transform: translateY(1000px);
+    transition: all 0.8s;
     left: 474px;
 }
 
@@ -124,6 +126,8 @@
     width: 337px;
     height: 308px;
     top: 1250px;
+    transform: translateY(1000px);
+    transition: all 0.8s;
     left: 847.04px;
 }
 
@@ -132,6 +136,8 @@
     width: 333px;
     height: 189px;
     top: 1576px;
+    transform: translateY(1000px);
+    transition: all 0.8s;
     left: 847px;
 }
 

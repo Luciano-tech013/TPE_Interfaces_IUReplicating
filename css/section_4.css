@@ -1,15 +1,36 @@
 .section_4 {
+    position: relative;
+    display: flex;
     width: 1280px;
     height: 5031.173px;
-    position: relative;
+    z-index: 1;
+}
+
+/*COLUMNA 1*/
+.section_4_img {
+    /*position: absolute;*/
+    width: 640px;
+    height: 5031.173px;
+    /*top: 201px;*/
+    /*margin-left: 100px;*/
+}
+
+.titulo_4_container {
+    position: absolute;
+    top: 201px;
+    width: 802px;
+    height: 90px;
+    margin-left: 100px;
+    z-index: 100;
 }
 
 .titulo_4 {
     width: 802px;
     height: 57px;
-    top: 201px;
-    left: 100px;
-    position: absolute;
+    /*top: 201px;*/
+    /*top: 0px;
+    /*left: 100px;*/
+    /*position: absolute;*/
 }
 
 .titulo_4 p {
@@ -20,14 +41,41 @@
     font-family: 'Lato';
 }
 
+.recorrido_contador_imagenes_container {
+    position: absolute;
+    top: 291px;
+    width: 640px;
+    height: 4618.173px;
+    z-index: 1;
+}
+
+.contador_imagenes_container {
+    position: absolute;
+    /*top: 269px;*/
+    top: 0px;  
+    background-color: blueviolet;
+    width: 398px;
+    /*height: 4700px;*/
+    height: 436px;
+    margin-left: 243px;
+}
+
 .contador_imagenes {
-    background-image: url("../assets/imgs/contador_muñecos.png");
-    background-repeat: no-repeat;
     position: absolute;
     width: 291px;
     height: 436px;
-    top: 269px;
-    left: 243px;
+    top: 0px;
+    /*top: 269px;*/
+    /*top: 68px;*/
+    /*left: 243px;*/
+    /*left: 143px;*/
+}
+
+/*COLUMNA 2*/
+.section_4_parrafos {
+    background-color: aqua;
+    width: 640px;
+    height: 5031.173px;
 }
 
 .galeria_parrafos_movibles {
@@ -37,8 +85,6 @@
     position: absolute;
     top: 428px;
     left: 713px;
-    width: 467px;
-    height: 4884px;
 }
 
 .parrafo_movible {
@@ -60,4 +106,21 @@
     font-weight: 400;
     line-height: 94.5%;
     color: black;
+}
+
+.img-hide {
+    position: absolute;
+    opacity: 0;
+    width: 291px;
+    height: 436px;
+    top: 0px;
+    left: 0px;
+}
+
+.img-show {
+    position: absolute;
+    width: 291px;
+    height: 436px;
+    top: 0px;
+    opacity: 1;
 }
