@@ -32,30 +32,38 @@
     width: 265px;
     height: 124px;
     top: 327px;
-    left: 794px;
+    
     z-index: 2;
+    animation: movimiento1 300s infinite;
+}
+@keyframes movimiento1 {
+    from {margin-left: 100%;}
+    to{ margin-left: -32%;}
+    
 }
 
 .nube_2 {
     background-image: url("../assets/imgs/nube_2.png");
     background-repeat: no-repeat;
     position: absolute;
-    width: 318px;
+    width: 387px;
     height: 181px;
     top: 370px;
-    left: 962px;
+    
     z-index: 2;
+    animation: movimiento1 100s infinite;
 }
 
 .nube_3 {
     background-image: url("../assets/imgs/nube_3.png");
     background-repeat: no-repeat;
     position: absolute;
-    width: 331px;
+    width: 387px;
     height: 181px;
     top: 629px;
-    left: -56px;
+    
     z-index: 2;
+    animation: movimiento1 50s infinite;
 }
 
 .fondo_9 {
@@ -199,4 +207,3 @@
     left: 756px;
     z-index: 2;
 }
-

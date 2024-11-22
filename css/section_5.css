@@ -30,6 +30,7 @@
     border-radius: 50px;
     top: 525.827px;
     left: 100px;
+    animation: moverVideo 3s infinite;
 }
 
 .iframe_container iframe {
@@ -48,4 +49,39 @@
     top: 351.827px;
     left: 731px;
     z-index: 3;
+    animation: moverMuñeco 1s infinite;
+}
+
+.boton_comprar.golpe {
+    animation: hitEffect 0.2s ease-in-out;
+}
+
+@keyframes hitEffect {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9) translateY(3px);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes moverVideo {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+}
+
+@keyframes moverMuñeco {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
 }

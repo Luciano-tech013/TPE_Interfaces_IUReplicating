@@ -36,9 +36,7 @@
     color: black;
 }
 
-.muñeco_1_grande {
-    background-image: url("../assets/imgs/muñeco_1_grande.png");
-    background-repeat: no-repeat;
+#reveal {
     position: absolute;
     width: 667px;
     height: 973px;

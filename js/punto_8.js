@@ -1,4 +1,4 @@
-const DIV_MUÑECOS = document.querySelector('.muñecos_container');
+const DIV_MUÑECOS = document.querySelector('.muñecos');
 const CANTIDAD_DE_EFECTO = 30;
 
 // Detectar el movimiento del mouse
@@ -17,12 +17,6 @@ DIV_MUÑECOS.addEventListener('mousemove', (e) => {
     let translateX = (0.5 - percentX) * CANTIDAD_DE_EFECTO; // Ajusta el factor
     let translateY = (0.5 - percentY) * CANTIDAD_DE_EFECTO;
 
-    const maxTranslateX = (width / 2) - (CANTIDAD_DE_EFECTO / 2);
-    const maxTranslateY = (height / 2) - (CANTIDAD_DE_EFECTO / 2);
-
-    translateX = Math.max(-maxTranslateX, Math.min(maxTranslateX, translateX));
-    translateY = Math.max(-maxTranslateY, Math.min(maxTranslateY, translateY));
-    
     // Aplicar transformación
     DIV_MUÑECOS.style.transform = `translate(${translateX}px, ${translateY}px)`;
 });
