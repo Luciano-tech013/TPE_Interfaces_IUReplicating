@@ -11,7 +11,9 @@ document.querySelector('#menuButton').addEventListener('click', function () {
         menuButton.classList.remove('active');
         menu.classList.remove('active');
         menuButton.classList.add('desactive');
-        menu.classList.add('desactive');
+        /*menu.classList.add('desactive');*/
+        /*menuButton.style = '';*/
+        menu.style = "";
     } else {
         /* Este agarra las 3 clases de boton_hamburguesa_active */
         menuButton.classList.remove('desactive')
