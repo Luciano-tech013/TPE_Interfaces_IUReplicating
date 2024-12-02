@@ -1,0 +1,209 @@
+.section_8 {
+    background-image: url("../assets/imgs/fondo_6.png");
+    background-repeat: no-repeat;
+    position: relative;
+    width: 1280px;
+    height: 1380px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.titulo_8 {
+    position: absolute;
+    width: 816px;
+    height: 171px;
+    top: 0px;
+    left: 100px;
+    z-index: 3;
+}
+
+.titulo_8 p {
+    font-size: 60px;
+    line-height: 94.5%;
+    font-weight: 600;
+    font-family: 'Lato';
+    color: black;
+}
+
+.nube_1 {
+    background-image: url("../assets/imgs/nube_1.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 265px;
+    height: 124px;
+    top: 327px;
+    
+    z-index: 2;
+    animation: movimiento1 300s infinite;
+}
+@keyframes movimiento1 {
+    from {margin-left: 100%;}
+    to{ margin-left: -32%;}
+    
+}
+
+.nube_2 {
+    background-image: url("../assets/imgs/nube_2.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 387px;
+    height: 181px;
+    top: 370px;
+    
+    z-index: 2;
+    animation: movimiento1 100s infinite;
+}
+
+.nube_3 {
+    background-image: url("../assets/imgs/nube_3.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 387px;
+    height: 181px;
+    top: 629px;
+    
+    z-index: 2;
+    animation: movimiento1 50s infinite;
+}
+
+.fondo_9 {
+    background-image: url("../assets/imgs/fondo_7.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 1280px;
+    height: 389px;
+    top: 991px;
+    left: 0px;
+    z-index: 2;
+}
+
+.boton_suscribirse_container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 780px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 4px 5px 0px 0px #02187E;
+    top: 207px;
+    left: 100px;
+    z-index: 2;
+}
+
+.boton_suscribirse_container input {
+    border: none;          
+    padding: 0;            
+    margin: 0;                
+    box-shadow: none;      
+    outline: none;         
+    font: inherit;         
+    color: inherit;     
+    position: absolute;
+    background-color: #ECECEC;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 549px;
+    height: 80px;
+    margin-left: 1.5%;
+}
+
+.boton_suscribirse_container input::placeholder {
+    font-family: 'Lato';
+    letter-spacing: 3px;
+    color: rgb(128, 128, 128, 1);
+    padding-left: 39px;
+    font-size: 20px;
+}
+
+.boton_suscribirse_container button {
+    background: none;   
+    border: none;        
+    padding: 0;          
+    margin: 0;           
+    box-shadow: none;    
+    font: inherit;      
+    color: inherit;     
+    outline: none;      
+    cursor: pointer;
+    width: 200px;
+    height: 80px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(131, 194, 82);
+    margin-left: 73.1%;
+}
+
+.boton_suscribirse_container button span {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Lato';
+    font-weight: 1000;
+    line-height: 110%;
+    -webkit-text-stroke: 1px #ffffff;
+}
+
+.input_ingresar_correo {
+    display: flex;
+    justify-content: center;
+}
+
+.suscribirse_info {
+    position: absolute;
+    width: 578px;
+    height: 95px;
+    top: 353px;
+    left: 100px;
+    z-index: 2;
+}
+
+.suscribirse_info p {
+    font-size: 20px;
+    font-family: 'Lato';
+    font-weight: 400;
+    line-height: 94.5%;
+    color: black;
+}
+
+.teen_logo {
+    background-image: url("../assets/imgs/teen_logo.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 231px;
+    height: 145px;
+    top: 459px;
+    left: 100px;
+    z-index: 2;
+}
+
+.muñeco_gif_2 {
+    background-image: url("../assets/imgs/muñeco_gif_2.webp");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    top: 858px;
+    left: 65px;
+    z-index: 2;
+}
+
+.muñeco_gif_3 {
+    background-image: url("../assets/imgs/mueñeco_3_gif.webp");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    top: 829px;
+    left: 407px;
+    z-index: 2;
+}
+
+.muñeco_gif_7 {
+    position: absolute;
+    width: 561px;
+    height: 997px;
+    top: 423px;
+    left: 756px;
+    z-index: 2;
+}

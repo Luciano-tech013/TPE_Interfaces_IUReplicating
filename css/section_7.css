@@ -1,0 +1,165 @@
+/*
+.section_7 {
+    position: relative;
+    width: 1280px;
+    height: 919px;
+}
+
+.section_7 div {
+    background-image: url("../assets/imgs/personajes/fondo.png");
+    background-repeat: no-repeat;
+    position: relative;
+    width: 1280px;
+    height: 729px;
+}
+
+#personajeRojo{
+    position: absolute;
+    left: 0px;           
+    top: 5747; 
+}
+
+
+#personajeNaranja{ 
+    position: absolute;
+    left: 280px;           
+    top: 5747; 
+}
+#personajeAmarillo{
+    position: absolute;
+    left: 544px;           
+    top: 5747; 
+}
+
+#personajeVerde{
+    position: absolute;
+    left: 812px;           
+    top: 5747; 
+}
+#personajeCeleste{
+    position: absolute;
+    left: 1067px;           
+    top: 5747; 
+}
+
+#personajeVioleta{
+    position: absolute;
+    left: 0px;           
+    margin-top: 405px;
+}
+#personajeMulticolor {
+    position: absolute;
+    left: 280px;
+    margin-top: 404px;  
+}
+
+#personajeRosa {
+    position: absolute;
+    left: 544px;
+    margin-top: 404px;  
+}
+
+#personajeGris {
+    position: absolute;
+    left: 812px;
+    margin-top: 404px;  
+}
+#personajeBlanco {
+    position: absolute;
+    left: 1065px; 
+    margin-top: 404px;  
+}
+*/
+
+.section_7 {
+    position: relative;
+    width: 1280px;
+    height: 919px;
+}
+
+.section_7 div {
+    background-image: url("../assets/imgs/personajes/fondo.png");
+    background-repeat: no-repeat;
+    position: relative;
+    width: 1280px;
+    height: 729px;
+}
+
+#personajeRojo, 
+#personajeNaranja, 
+#personajeAmarillo, 
+#personajeVerde, 
+#personajeCeleste, 
+#personajeVioleta, 
+#personajeMulticolor, 
+#personajeRosa, 
+#personajeGris, 
+#personajeBlanco {
+    position: absolute;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación para agrandado y sombra */
+}
+
+#personajeRojo {
+    left: 0px;
+    top: 5747;
+}
+
+#personajeNaranja { 
+    left: 280px;
+    top: 5747;
+}
+
+#personajeAmarillo {
+    left: 544px;
+    top: 5747;
+}
+
+#personajeVerde {
+    left: 812px;
+    top: 5747;
+}
+
+#personajeCeleste {
+    left: 1067px;
+    top: 5747;
+}
+
+#personajeVioleta {
+    left: 0px;
+    margin-top: 405px;
+}
+
+#personajeMulticolor {
+    left: 280px;
+    margin-top: 404px;
+}
+
+#personajeRosa {
+    left: 544px;
+    margin-top: 404px;
+}
+
+#personajeGris {
+    left: 812px;
+    margin-top: 404px;
+}
+
+#personajeBlanco {
+    left: 1065px;
+    margin-top: 404px;
+}
+
+/* Estilo para el agrandado e iluminación cuando se pasa el mouse */
+#personajeRojo:hover,
+#personajeNaranja:hover,
+#personajeAmarillo:hover,
+#personajeVerde:hover,
+#personajeCeleste:hover,
+#personajeVioleta:hover,
+#personajeMulticolor:hover,
+#personajeRosa:hover,
+#personajeGris:hover,
+#personajeBlanco:hover {
+    transform: scale(1.1); /* Agranda la imagen un 10% */
+    box-shadow: 0px 30px 70px rgb(255, 255, 255); /* Agrega una sombra brillante */
+}

@@ -1,0 +1,87 @@
+.section_5 {
+    background-image: url("../assets/imgs/fondo_5.png");
+    background-repeat: no-repeat;
+    position: relative;
+    width: 1280px;
+    height: 1444px;
+}
+
+.titulo_5 {
+    position: absolute;
+    top: 308.827px;
+    left: 100px;
+    width: 802px;
+    height: 171px;
+}
+
+.titulo_5 p {
+    font-size: 60px;
+    line-height: 94.5%;
+    font-weight: 600;
+    color: white;
+    font-family: 'Lato';
+}
+
+.iframe_container {
+    position: absolute;
+    width: 745px;
+    height: 400px;
+    border: 30px solid white;
+    border-radius: 50px;
+    top: 525.827px;
+    left: 100px;
+    animation: moverVideo 3s infinite;
+}
+
+.iframe_container iframe {
+    width: 745px;
+    height: 400px;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.iframe_muñeco {
+    background-image: url("../assets/imgs/muñeco_3_grande.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 549px;
+    height: 989px;
+    top: 351.827px;
+    left: 731px;
+    z-index: 3;
+    animation: moverMuñeco 1s infinite;
+}
+
+.boton_comprar.golpe {
+    animation: hitEffect 0.2s ease-in-out;
+}
+
+@keyframes hitEffect {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9) translateY(3px);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes moverVideo {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+}
+
+@keyframes moverMuñeco {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}

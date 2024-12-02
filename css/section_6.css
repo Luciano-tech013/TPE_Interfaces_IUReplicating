@@ -1,0 +1,45 @@
+.section_6 {
+    position: relative;
+    width: 1280px;
+    height: 1027px;
+}
+
+.titulo_6 {
+    position: absolute;
+    width: 746px;
+    height: 285px;
+    top: 213px;
+    left: 100px;
+}
+
+.titulo_6 p {
+    font-size: 60px;
+    font-family: 'Lato';
+    color: #9D2121;
+    line-height: 94.5%;
+    font-weight: 600;
+}
+
+.parrafo_6 {
+    position: absolute;
+    width: 467px;
+    height: 190px;
+    top: 541px;
+    left: 100px;
+}
+
+.parrafo_6 p {
+    font-size: 20px;
+    font-family: 'Lato';
+    line-height: 94.5%;
+    font-weight: 400;
+    color: black;
+}
+
+#reveal {
+    position: absolute;
+    width: 667px;
+    height: 973px;
+    top: 0px;
+    left: 605px;
+}
